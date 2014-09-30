@@ -6,9 +6,10 @@ body {
 
 #container {
     position: relative;
-    background-color: #EAE7D2;
+    background-color: #51473D;
     width: 600px;
     border: solid #CECAB9 1px;
+    
 }
 
 #topbar {
@@ -16,35 +17,60 @@ body {
     background-color: #51473D;
     display: inline-block;
     color: #EAE7D2;
-    content: url(pics/coffey.jpg);
+    border: solid black 2px;
 }
 
-#menu a {
-    display: none;
+#menu {
+    padding-top: 150px;
+    padding-bottom: 77px;
+    background-image: url('pics/coffey.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #51473D;
 }
 
 #menu li a {
+    margin-top: 38px;
+
     display: initial;
     float: left;
-    padding: 12px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 19px; 
     background-color: #797066;
+    border-top: solid #847C73 1px;
     border-left: solid #51473D 1px;
+    text-decoration: none;
+}
 
+#menu li a:first-letter {
+    text-transform: uppercase;
 }
 
 #menu a{
+    display: none;
     background-color: #797066;
     color: #EAE7D2;
-
 }
 
-#content {}
+#content {
+    background-color: #EAE7D2;
+}
 
 #maincontent {
     position: relative;
-    display: inline-block;}
+    display: inline-block;
+    width: 360px;
+}
 
-#subcontent {}
+#subcontent {
+    position: relative;
+    width: 231px;
+    display: inline-block;
+    
+    border-left: dashed #C0C0C0 1px;
+}
 
 #bottomcontent {}
 
